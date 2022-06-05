@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+#head {
+    padding: 10px 0px 10px 10px;
+    background-color: rgb(170, 161, 161);
+}
+
+.form1 {
+    margin: 15px;
+}
+
+.first {
+    margin-bottom: 5px;
+}
+
+#fname {
+    margin-right: 3px;
+}
+
+#lname {
+    margin-right: 5px;
+}
+
+#email {
+    margin-right: 20px;
+}
+
+.form2 {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#Male {
+    margin-right: 67px;
+}
+
+#Female {
+    margin-right: 53px;
+}
+
+#Transgender {
+    margin-right: 21px;
+}
