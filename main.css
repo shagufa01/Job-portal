@@ -6,12 +6,19 @@
 }
 
 #head {
+    text-align: center;
     padding: 10px 0px 10px 10px;
     background-color: rgb(170, 161, 161);
+    width: 100vw;
+}
+
+.placeholder{
+    text-align: center;
 }
 
 .form1 {
     margin: 15px;
+    text-align: center;
 }
 
 .first {
@@ -31,7 +38,8 @@
 }
 
 .form2 {
-    margin-left: 15px;
+    text-align: center;
+    /* margin-left: 15px; */
     margin-top: 15px;
 }
 
@@ -45,4 +53,81 @@
 
 #Transgender {
     margin-right: 21px;
+}
+
+#year{
+    margin-right: 21px;
+}
+#University{
+    margin-right: 21px;
+}
+#college{
+    margin-right: 39px;
+}
+#year{
+    margin-right: 58px;
+}
+#sele{
+    /* margin-right: 150px; */
+}
+#branch{
+    margin-left: -110px;
+    margin-right: 40px;
+}
+.form3 {
+    text-align: center;
+    /* margin-left: 15px; */
+    margin-top: 15px;
+}
+#sgpa{
+    margin-right: 49px;
+}
+#yop{
+    margin-right: 5px;
+}
+#od{
+    margin-right: 15px;
+
+}
+#resume{
+    /* text-align: center; */
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+#Fresher {
+    margin-right: 60px;
+}
+#Experienced {
+    margin-right: 30px;
+}
+#worked{
+    margin-right: 10px;
+}
+#VS{
+    margin-right: 20px;
+}
+.AOI{
+    margin-top: 10px;
+    margin-left: -90px;
+    font-size: 16px;
+}
+.check{
+    margin-top: -18px;
+    margin-right: -150px;
+}
+#FE{
+    margin-left: 3px;
+}
+#FS{
+    margin-left: 10px;
+}
+#DS{
+    margin-left: 28px;
+}
+#other{
+    margin-left: -15px;
+}
+#OT{
+    margin-right: 50px;
 }

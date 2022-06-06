@@ -9,28 +9,117 @@
 </head>
 <body>
     <div>
-        <h3 id="head">Personal details</h3>
-        <form action="" class="form1"> 
+        <div>
+          <h3 id="head">Personal details</h3>
+            <form action="" class="form1"> 
+              <section class="first">
+                  <label for="fname" id="fname">First Name</label>
+                  <input placeholder="First name" type="text"> 
+              </section> <br>
+              <section class="first">
+                  <label for="lname" id="lname">Last Name</label>
+                  <input type="text" placeholder="Last name" >
+              </section> <br>   
+              <section class="first">
+                  <label for="email" id="email">Email Id</label>
+                  <input type="email"> 
+              </section>
+            </form>
+        </div>
+        <div>
+          <h3 id="head">Gender</h3>
+            <form action="" class="form2">
+               <label for="Male" id="Male">Male</label>
+               <input type="radio" name="gender" value="Male"><br> <br>
+               <label for="Female" id="Female">Female</label>
+               <input type="radio" name="gender" value="Female"><br> <br>
+               <label for="Transgender" id="Transgender">Transgender</label>
+               <input type="radio" name="gender" value="Transgender">
+            </form> <br>
+        </div>
+        <div>
+         <h3 id="head">Graduation Details</h3>
+         <form action="" class="form3">
             <section class="first">
-            <label for="fname" id="fname">First Name</label>
-            <input type="text"> </section> <br>
+               <label for="fname" id="University">University</label>
+               <input type="text"> 
+            </section> <br>
             <section class="first">
-            <label for="lname" id="lname">Last Name</label>
-            <input type="text"> </section> <br>
+               <label for="lname" id="college">College</label>
+               <input type="text"> 
+            </section> <br>
             <section class="first">
-            <label for="email" id="email">Email Id</label>
-            <input type="email"> </section>
-        </form>
-        <h3 id="head">Gender</h3>
-        <form action="" class="form2">
-        <label for="Male" id="Male">Male</label>
-        <input type="radio" name="gender" value="Male"><br> <br>
-        <label for="Female" id="Female">Female</label>
-        <input type="radio" name="gender" value="Female"><br> <br>
-        <label for="Transgender" id="Transgender">Transgender</label>
-        <input type="radio" name="gender" value="Transgender">
-    </form> <br>
-    <h3 id="head">Career gap</h3>
+               <label for="email" id="year">Year</label>
+               <input type="year"> 
+            </section> <br>
+            <section class="first">
+               <label for="email" id="branch">Branch</label>
+               <select name="Branch" id="sele"> 
+                   <option value="CSE">CSE</option> 
+                   <option value="ECE">ECE</option> 
+                   <option value="EEE">EEE</option> 
+                   <option value="ME">ME</option> 
+                   <option value="CE">CE</option> 
+               </select> <br> <br>
+            </section>   
+            <section class="first">
+                  <label for="email" id="sgpa">SGPA</label>
+                  <input type="text"> 
+            </section> <br>      
+            <section class="first">
+                  <label for="email" id="yop">Year of passing</label>
+                  <input type="text">
+            </section> <br>      
+            <section class="first">
+                  <label for="email" id="od">Extra Degree</label>
+                  <input type="text"> 
+            </section> <br>
+            <section class="first">
+                <label for="email" id="resume">Resume</label>
+                <input type="file"> 
+          </section> 
+         </form> <br>
+        </div>
+        <div>
+            <h3 id="head">Professional Details</h3>
+            <form action="" class="form2">
+                <label for="Fresher" id="Fresher">Fresher</label>
+                <input type="radio" name="profession" value="Fresher"><br> <br>
+                <label for="Experienced" id="Experienced">Experienced</label>
+                <input type="radio" name="profession" value="Experienced"><br> <br>
+                <section class="first">
+                    <label for="email" id="worked">If Experienced worked on? </label>
+                    <input type="Text"> 
+                </section> <br>
+                <section class="first">
+                    <label for="email" id="VS">Verified Skills</label>
+                    <input type="text"> 
+                </section> 
+                <section>
+                    <p class="AOI" >Area of Intrest</p>
+                  <div class="check" >
+                    <input type="checkbox" id="FE" name="prog1" value="JavaScript">
+                    <label for="prog1">Frontend</label><br>
+                  
+                    <input type="checkbox" id="BE" name="prog2" value="Python">
+                    <label for="prog2">Backend</label><br>
+                  
+                    <input type="checkbox" id="FS" name="prog3" value="Ruby">
+                    <label for="prog3">Full Stack</label><br>
+                  
+                    <input type="checkbox" id="DS" name="prog4" value="Java">
+                    <label for="prog4">Data Science</label><br>
+                  
+                    <input type="checkbox" id="other" name="prog4" value="C++">
+                    <label for="prog5">Others</label>
+                  </div> 
+                </section><br>
+                <section class="first">
+                    <label for="email" id="OT">Others ?</label>
+                    <input type="text"> 
+                </section> 
+             </form> <br>
+        </div>
     </div>
 </body>
 </html>
